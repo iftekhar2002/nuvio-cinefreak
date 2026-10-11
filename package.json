@@ -1,0 +1,9 @@
+{
+  "name": "nuvio-cinefreak",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cinefreak provider for Nuvio",
+  "scripts": { "test": "node provider.test.cjs", "configure": "node configure.cjs" },
+  "engines": { "node": ">=18" }
+}
+

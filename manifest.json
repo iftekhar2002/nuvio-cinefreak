@@ -1,0 +1,50 @@
+{
+  "name": "Cinefreak for Nuvio",
+  "version": "0.1.0",
+  "description": "Unofficial Cinefreak provider",
+  "author": "Cinefreak Plugin Community",
+  "scrapers": [
+    {
+      "id": "cinefreak",
+      "name": "Cinefreak",
+      "description": "Cinefreak movies and individual TV episodes. No API key required. Optional TMDB key supported.",
+      "version": "0.1.0",
+      "author": "Cinefreak Plugin Community",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "cinefreak.js",
+      "url": "https://raw.githubusercontent.com/iftekhar2002/nuvio-cinefreak/main/cinefreak.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mkv",
+        "mp4",
+        "m3u8"
+      ]
+    }
+  ],
+  "providers": [
+    {
+      "id": "cinefreak",
+      "name": "Cinefreak",
+      "description": "Cinefreak movies and individual TV episodes. No API key required. Optional TMDB key supported.",
+      "version": "0.1.0",
+      "author": "Cinefreak Plugin Community",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "cinefreak.js",
+      "url": "https://raw.githubusercontent.com/iftekhar2002/nuvio-cinefreak/main/cinefreak.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mkv",
+        "mp4",
+        "m3u8"
+      ]
+    }
+  ]
+}

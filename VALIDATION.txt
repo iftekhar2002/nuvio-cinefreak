@@ -1,0 +1,31 @@
+Live checks: October 12, 2026
+Movie: Ant-Man and the Wasp: Quantumania (2023)
+[
+  {
+    "test": "TV S5E113",
+    "count": 2,
+    "qualities": [
+      "720p",
+      "1080p"
+    ]
+  },
+  [
+    {
+      "quality": "480p",
+      "status": 403,
+      "type": "text/plain;charset=UTF-8"
+    },
+    {
+      "quality": "720p",
+      "status": 200,
+      "type": "video/x-matroska"
+    },
+    {
+      "quality": "1080p",
+      "status": 200,
+      "type": "video/x-matroska"
+    }
+  ]
+]
+Five local automated tests passed. Live checks used title metadata; numeric TMDB lookup was mocked in tests. In-app playback has not been tested.
+Follow-up: live numeric TMDB 640146 lookup without a key succeeded and returned three qualities. Nuvio Web runtime inspected: URL-template sources only; native playback still unverified.
